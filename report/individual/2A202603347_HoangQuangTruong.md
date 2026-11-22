@@ -96,7 +96,7 @@ Chưa có ghi chép kết quả của hai lượt review nên không thể xác 
 
 | Kiểm tra | Kết quả |
 |---|---|
-| Tên file MOT 1.1 | `HoangQuangTruong_MOT.zip` |
+| Tên file MOT 1.1 | `HoangQuangTruong_mot.zip` |
 | Tên file CVAT for video 1.1 | `HoangQuangTruong_cvat_video.zip` |
 | Số track ID khác nhau trong `gt/gt.txt` (phải là 5) | **5 — Đúng** |
 | Frame `outside` không có dòng trong `gt.txt` (đúng / sai) | **Đúng theo kết quả tự kiểm; không có lỗi hoặc cảnh báo** |
@@ -107,7 +107,7 @@ Dán phần tóm tắt in ra từ `src/check_submission.py`:
 ```text
 Số frame in theo CVAT (bắt đầu từ 0). Trong gt.txt, frame_id = frame CVAT + 1.
 
-=== File MOT 1.1: HoangQuangTruong_MOT.zip ===
+=== File MOT 1.1: HoangQuangTruong_mot.zip ===
   Số track ID: 5   |   Tổng số box: 652
   [OK]        Đúng 5 track ID.
 
